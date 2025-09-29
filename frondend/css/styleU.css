@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+    background-position: center;
+    background-repeat: repeat;
+    height: 100vh;
+    color: white;
+    background-size: 25%;
+    background-image: url(../assets/img/TileableMK8.jpg);
+    margin: 0;
+    min-height: 100vh;
+    z-index: -2;
+}
+
+body::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5); /* Cambia el color y alpha aquí */
+    z-index: -1;
+    pointer-events: none;
+}

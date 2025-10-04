@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-position: center;
+    background-repeat: repeat;
+    height: 100vh;
+    color: white;
+    background-size: 25%;
+    background-image: url(../assets/img/TileableMK8.jpg);
+    margin: 0;
+    min-height: 100vh;
+    z-index: -2;
+}
+
+body::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(253, 207, 250, 0.5);
+    min-height: 100vh;
+    height: 100vh;
+    z-index: -1;
+}
+
+.navbar-custom {
+    background-color: #4E56C0 !important;
+}
+
+.card-custom {
+    background-color: #4E56C0 !important;
+    color: white !important;
+}
+
+.card-custom .text-muted {
+  color: #bdc3c7 !important;
+}
+
+.table-custom thead th{
+    background-color: #4E56C0 !important;
+    color: white !important;
+}
+
+.table-custom tbody tr td, .table-custom tbody tr th {
+    background-color: #D78FEE!important;
+    color: white !important;
+}
+
+.table-custom tbody tr:nth-of-type(odd) td, .table-custom tbody tr:nth-of-type(odd) th{            /* Efecto cebra */
+    background-color: #9B5DE0 !important;
+    color: white !important;
+}

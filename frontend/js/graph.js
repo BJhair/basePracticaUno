@@ -8,15 +8,15 @@ var chartsBar = document.querySelectorAll(".chart-bar");
 				data: {
 					labels: ["Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
 					datasets: [{
-						label: "Sales",
-						tension: 0.4,
-						borderWidth: 0,
-						borderRadius: 4,
-						borderSkipped: false,
-						backgroundColor: "#fff",
-						data: [450, 200, 100, 220, 500, 100, 400, 230, 500],
-						maxBarThickness: 6,
-					}, ],
+    label: "Sales",
+    tension: 0.4,
+    borderWidth: 0,
+    borderRadius: 4,
+    borderSkipped: false,
+    backgroundColor: "#344767", // <-- CAMBIAR a un color oscuro
+    data: [450, 200, 100, 220, 500, 100, 400, 230, 500],
+    maxBarThickness: 6,
+}, ],
 				},
 				options: {
 					responsive: true,
@@ -49,7 +49,7 @@ var chartsBar = document.querySelectorAll(".chart-bar");
 									style: "normal",
 									lineHeight: 2,
 								},
-								color: "#fff",
+								color: "#6c757d",
 							},
 						},
 						x: {

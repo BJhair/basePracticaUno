@@ -17,7 +17,7 @@ app.use(cors()); // Permite la comunicación entre el frontend y el backend
 app.use(express.json()); // Permite que el servidor entienda peticiones con cuerpo en formato JSON
 
 // 4. Conexión a la base de datos de MongoDB Atlas
-const MONGO_URI = 'mongodb+srv://bjhairgg_db_user:WTgjYrq4OuvZ1udS@cluster0.tevlrbj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'; // <-- PEGA TU CADENA DE CONEXIÓN AQUÍ
+const MONGO_URI = ''; // <-- PEGA TU CADENA DE CONEXIÓN AQUÍ
 
 mongoose.connect(MONGO_URI)
     .then(() => console.log('Conectado a MongoDB Atlas'))

@@ -11,22 +11,20 @@ body {
     z-index: -2;
 }
 
-body::after {
+/*body::after { 
     content: "";
-    position: absolute;
+    position: fixed;
     inset: 0;
     background: rgba(253, 207, 250, 0.5);
-    min-height: 100vh;
-    height: 100vh;
     z-index: -1;
-}
+}*/
 
 .navbar-custom {
-    background-color: #4E56C0 !important;
+    background-color: #1B3C53 !important;
 }
 
 .card-custom {
-    background-color: #4E56C0 !important;
+    background-color: #1B3C53 !important;
     color: white !important;
 }
 
@@ -35,16 +33,16 @@ body::after {
 }
 
 .table-custom thead th{
-    background-color: #4E56C0 !important;
+    background-color: #1B3C53 !important;
     color: white !important;
 }
 
 .table-custom tbody tr td, .table-custom tbody tr th {
-    background-color: #D78FEE!important;
+    background-color: #D2C1B6!important;
     color: white !important;
 }
 
 .table-custom tbody tr:nth-of-type(odd) td, .table-custom tbody tr:nth-of-type(odd) th{            /* Efecto cebra */
-    background-color: #9B5DE0 !important;
+    background-color: #456882 !important;
     color: white !important;
 }
